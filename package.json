@@ -11,7 +11,14 @@
   "author": "Tenhebrus",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "bufferutil": "^3.0.5",
+    "discord.js": "^11.4.2",
+    "erlpack": "github:discordapp/erlpack",
+    "latest": "^0.2.0",
+    "libsodium-wrappers": "^0.7.6",
+    "node-opus": "^0.2.9",
+    "opusscript": "0.0.6",
+    "uws": "^9.148.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
