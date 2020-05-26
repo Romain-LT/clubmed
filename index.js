@@ -15,11 +15,11 @@ client.on('guildMemberAdd', member => {
   let memberAvatar = member.user.avatarURL;
       if(!channel) return;
       let embed = new Discord.RichEmbed()
-          .setColor('WHITE')
+          .setColor('GREEN')
           .setThumbnail(memberAvatar)
           .addField('ARRIVÉ' , ` ${member} vient de rejoindre le discord`)
           
-      channel.sendEmbed(embed);
+      channel.send(embed);
 });
 
 client.on('guildMemberRemove', member => {
@@ -27,11 +27,12 @@ client.on('guildMemberRemove', member => {
   let memberAvatar = member.user.avatarURL;
       if(!channel) return;
       let embed = new Discord.RichEmbed()
-          .setColor('WHITE')
+          .setColor('RED')
           .setThumbnail(memberAvatar)
-          .addField('DÉPART' , `${member} vient de quitter le discord`)
+          .addField('DÉPART' , ` ${member} vient de quitter le discord`)
           
-      channel.sendEmbed(embed);
+      channel.send(embed);
 });
 
-client.login(process.env.BOT_TOKEN);
+// client.login(process.env.BOT_TOKEN);
+client.login('NzE0NzYxMTUyNDk1ODc4MjE1.XsznSw.5P_EKdC7YLpXQjQj0MipA7VGZC4');
