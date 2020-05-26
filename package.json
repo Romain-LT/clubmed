@@ -1,0 +1,19 @@
+{
+  "name": "clubmedbot",
+  "version": "1.0.0",
+  "description": "Homemade bot for <Club Med> @Sulfuron EU Wow Classic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Tenhebrus",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
